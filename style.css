@@ -1,0 +1,50 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+.box
+{
+    display: flex;
+    /* justify-content:center;
+    align-items: center; */
+    text-transform: capitalize;
+    margin: 5%;
+}
+
+input 
+{
+    background-color:rgba(194, 187, 187, 0.767);
+     height: 25px;
+    border: none;
+}
+select
+{
+    background-color:rgba(194, 187, 187, 0.767);
+    height: 25px;
+    width: 169px;
+    border: none;
+}
+
+textarea
+{
+    background-color:rgba(194, 187, 187, 0.767);
+    resize: none;
+    border: none;
+}
+
+td
+{
+    padding-right:20px;
+} 
+
+c
+
+#know
+{
+    display:none;
+   
+
+}
+

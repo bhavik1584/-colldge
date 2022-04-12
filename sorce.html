@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="box">
+        <table>
+            <tr>
+                <td>name</td>
+                <td>date</td>
+            </tr>
+            <tr>
+                <td><input type="text"></td>
+                <td><input type="date"></td>
+
+
+            <tr>
+                <td>address</td>
+                <td>city</td>
+                <td>country</td>
+            </tr>
+
+
+            <td><textarea name="address" cols="30" rows="5"></textarea></td>
+            <td><input type="text"></td>
+            <td>
+                <select name="city" id="city">
+                    <option value="india">india</option>
+                    <option value="usa">usa</option>
+                    <option value="america">america</option>
+                </select>
+            </td>
+
+            <tr>
+                <td>mobile no</td>
+                <td>whatsapp no</td>
+                <td>email</td>
+            </tr>
+            <tr>
+                <td><input type="text"></td>
+                <td><input type="text"></td>
+                <td><input type="email"></td>
+            </tr>
+
+            <tr>
+                <td>pan</td>
+                <td>aadhar</td>
+            </tr>
+            <tr>
+                <td><input type="text"></td>
+                <td><input type="text"></td>
+            </tr>
+
+            <tr>
+                <td>amount</td>
+                <td>received in</td>
+            </tr>
+            <tr>
+                <td><input type="text"></td>
+                <td><select name="city" id="cq" onChange=selectChange(this.value) >
+                        <option name="city" value="select">select</option>
+                        <option name="city" value="cheque">cheq</option>
+                        <option name="city" value="cash">cash</option>
+                    </select>
+                </td>
+            </tr>
+            <div id="myForm" id="know">
+                <tr>
+                    <td>cheque no</td>
+                    <td>cheque date</td>
+                    <td>cheque bank</td>
+                </tr>
+                <tr>
+                    <td><input type="text"></td>
+                    <td><input type="date"></td>
+                    <td><input type="text"></td>
+                </tr>
+            </div>
+            <tr>
+                <td>narration</td>
+                <td>donetion for</td>
+            </tr>
+            <tr>
+                <td><textarea name="narration" cols="30" rows="5"></textarea></td>
+                <td><input type="text"></td>
+            </tr>
+
+            <tr>
+                <td>donetion for</td>
+            </tr>
+            <tr>
+                <td>
+                    <select name="donation" id="donation">
+                        <option value="select">select</option>
+                        <option value="donation account">donation account</option>
+                        <option value="other">other</option>
+                    </select>
+                <td>
+            </tr>
+        </table>
+    </div>
+
+  <script>
+
+//    let a=document.getElementById("cq").value;
+
+//    if(a=="cheque")
+//    {
+//        alert("hello");
+//    }  
+
+    
+
+
+  </script>
+</body>
+
+</html>
