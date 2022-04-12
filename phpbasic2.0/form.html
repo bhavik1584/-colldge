@@ -1,0 +1,165 @@
+
+
+
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+    </style>
+
+
+</head>
+
+<body>
+    <div class="navbar">
+        <ul class="font">
+            <li><img class="logo"
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS98dDqIJocVV6FmDCEq43ifQLd08NnLvABig&usqp=CAU"
+                    alt="">
+            </li>
+            <li>
+                <a href="#">home</a>
+            </li>
+            <li>
+                <a href="#">about</a>
+            </li>
+            <li>
+                <a href="#">partner</a>
+            </li>
+            <li class="end">
+                <a href="#">login</a>
+            </li>
+            <li class="end">
+                <a href="#">logout</a>
+            </li>
+
+        </ul>
+
+    </div>
+
+    <div class="box">
+
+        <form action="insert.php" method="post">
+        <table>
+            
+            <tr>
+                <td>name</td>
+                <td>date</td>
+            </tr>
+            <tr>
+                <td><input type="text" name="name"></td>
+                <td><input type="date" name="date"></td>
+
+
+            <tr>
+                <td>address</td>
+                <td>city</td>
+                <td>country</td>
+            </tr>
+
+
+            <td><textarea name="address" cols="30" rows="5"></textarea></td>
+            <td><input name="city"  type="text"></td>
+            <td>
+                <select name="contry">
+                    <option name="contry" value="india">india</option>
+                    <option name="contry" value="usa">usa</option>
+                    <option name="contry" value="america">america</option>
+                </select>
+            </td>
+
+            <tr>
+                <td>mobile no</td>
+                <td>whatsapp no</td>
+                <td>email</td>
+            </tr>
+            <tr>
+                <td><input name="mobile_no" type="text"></td>
+                <td><input name="whatsapp_no" type="text"></td>
+                <td><input name="email" type="email"></td>
+            </tr>
+
+            <tr>
+                <td>pan</td>
+                <td>aadhar</td>
+            </tr>
+            <tr>
+                <td><input name="pan" type="text"></td>
+                <td><input name="aadhar" type="text"></td>
+            </tr>
+
+            <tr>
+                <td>amount</td>
+                <td>receivedin</td>
+            </tr>
+            <tr>
+                <td><input name="amount" type="text"></td>
+                <td><select name="pay_method">
+                        <option name="pay method" value="select">select</option>
+                        <option name="pay method" value="cheque">cheq</option>
+                        <option name="pay method" value="cash">cash</option>
+                    </select>
+                </td>
+            </tr>
+            <!-- <div >
+                <tr>
+                    <td>cheque no</td>
+                    <td>cheque date</td>
+                    <td>cheque bank</td>
+                </tr>
+                <tr>
+                    <td><input type="text"></td>
+                    <td><input type="date"></td>
+                    <td><input type="text"></td>
+                </tr>
+            </div> -->
+            <tr>
+                <td>narration</td>
+                <td>donetion for</td>
+            </tr>
+            <tr>
+                <td><textarea name="narration" cols="30" rows="5"></textarea></td>
+                <td> <select name="donation_for" id="donation">
+                        <option name="donation_for" value="select">select</option>
+                        <option name="donation_for" value="donation account">donation account</option>
+                        <option name="donation_for" value="other">other</option>
+                    </select>
+                </td>
+            </tr>
+
+            <tr>
+                <td>received by</td>
+            </tr>
+            <tr>
+                <td>
+                    <select name="received_by" id="donation">
+                        <option name="received_by" value="select">select</option>
+                        <option name="received_by" value="donation account">donation account</option>
+                        <option name="received_by" value="other">other</option>
+                    </select>
+                <td>
+                
+            </tr>
+            <tr>
+                <td>
+                    <input type="submit" name="btn" class="btn" ">
+                </td>
+            </tr>
+       
+        </table>
+    </form>
+    </div>
+
+
+</body>
+
+</html>
